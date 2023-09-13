@@ -16,14 +16,14 @@ function App() {
     <div className="App mt4 flex justify-center">
       <div className="main-container">
         <div className="number-container">
-          {step === 1 ? (
+          {step >= 1 ? (
             <div className="number">1</div>
           ) : (
             <div style={{ filter: `saturate(0)` }} className="number">
               1
             </div>
           )}{" "}
-          {step === 2 ? (
+          {step >= 2 ? (
             <div className="number">2</div>
           ) : (
             <div style={{ filter: `saturate(0)` }} className="number">
